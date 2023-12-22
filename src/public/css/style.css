@@ -1,0 +1,113 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color:6C0376;
+}
+
+.allProducts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card {
+    margin: 25px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+#formLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#formLogin h1 {
+    color: white;
+    
+}
+#formLogin h6 {
+    color: white;
+    
+}
+
+.form-label {
+    color: white;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin-top: 10%;
+}
+
+#registerForm .h1-register {
+    color: white;
+    padding-left: 43%;
+}
+
+#registerForm h6 {
+    color: white;
+    padding-left: 43%;
+}
+
+h6 a i {
+    margin: 15px;
+}
+
+.cardDetail {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: 7%;
+    padding: 7%;
+    border-radius: 25px;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-actions {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#quantity {
+    border-radius: 10%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: 6C0376;
+}
+
+.partFooter label {
+    color: white;
+}
