@@ -11,9 +11,9 @@ const getRecoveryLink = async (req, res) => {
             const bodyData = {
                 "to": responseJson.userEmail,
                 "subject": "Recuperación de contraseña",
-                "html": "<html><h1>Recupero de Contraseña</h1><br/><p>Haz clic en el siguiente enlace para recuperar tu contraseña: " + "http://localhost:" + config.port + "/recovery/reset-password/" + responseJson.createdRecoveryId + "</p></html>"
+                "html": "<html><h1>Recupero de Contraseña</h1><br/><p>Haz clic en el siguiente enlace para recuperar tu contraseña: " + "<a>https://allcomputers.up.railway.app/recovery/reset-password/</a>" + responseJson.createdRecoveryId + "</p></html>"
             }
-            const status = await fetch('http://localhost:' + config.port + '/mail/send', {
+            const status = await fetch('https://allcomputers.up.railway.app/mail/send', {
                 method: "POST",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(bodyData)
