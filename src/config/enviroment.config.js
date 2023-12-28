@@ -10,5 +10,6 @@ export default {
     port: process.env.PORT,
     mongoUrl: process.env.MONGO_URL,
     persistence: program.opts().persist,
-    enviroment: enviroment
+    enviroment: enviroment,
+    mpKey: process.env.MERCADOPAGO_KEY
 }

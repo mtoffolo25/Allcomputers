@@ -11,6 +11,7 @@ import userApiRoutes from './routes/users.routes.js';
 import sessionRoutes from './routes/sessions.routes.js';
 import logoutRoutes from './routes/logout.routes.js';
 import ticketRoutes from './routes/ticket.routes.js';
+// import paymentRoutes from './routes/payment.routes.js'
 import currentRoutes from './routes/current.routes.js';
 import mockingProductsRoutes from './routes/mockingproducts.routes.js';
 import loggerTest from './routes/loggertest.routes.js';
@@ -61,6 +62,7 @@ app.use("/api/products", productsRoutes);
 app.use("/api/carts", cartRoutes);
 app.use("/api/sessions", sessionRoutes);
 app.use("/api/users", userApiRoutes);
+// app.use("api/payment", paymentRoutes)
 
 //VIEWS
 app.use("/home", homeRoutes);
@@ -76,6 +78,7 @@ app.use("/mockingproducts", mockingProductsRoutes);
 app.use("/loggerTest", loggerTest);
 app.use("/mail", mailRoutes);
 app.use("/recovery", recoveryRoutes);
+
 
 
 //DOCS

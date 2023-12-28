@@ -127,3 +127,12 @@
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials p4-20020a634204000000b005b856fab5e9sm17470686pga.18 - gsmtp
 [31merror[39m: 18/12/2023, 11:21:50: Error al enviar el correo: Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials w190-20020a6362c7000000b005cd8866cccesm3111779pgb.27 - gsmtp
+[31merror[39m: 26/12/2023, 11:24:05: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "purchase" (type string) at path "_id" for model "carts"
+[31merror[39m: 26/12/2023, 11:24:43: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "purchase" (type string) at path "_id" for model "carts"
+[31merror[39m: 26/12/2023, 11:25:39: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "purchase" (type string) at path "_id" for model "carts"
+[31merror[39m: 28/12/2023, 15:54:38: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
+[31merror[39m: 28/12/2023, 15:55:24: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
+[31merror[39m: 28/12/2023, 15:57:26: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
+[31merror[39m: 28/12/2023, 15:58:12: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
+[31merror[39m: 28/12/2023, 15:58:29: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
+[31merror[39m: 28/12/2023, 16:04:51: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"

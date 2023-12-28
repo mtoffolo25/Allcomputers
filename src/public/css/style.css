@@ -1,4 +1,5 @@
 .body {
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color:6C0376;
@@ -110,4 +111,12 @@ footer {
 
 .partFooter label {
     color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
 }

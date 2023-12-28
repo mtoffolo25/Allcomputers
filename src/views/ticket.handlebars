@@ -1,5 +1,5 @@
 <h3>Felicitaciones! Tu pedido ha sido enviado</h3>
-<h4>Mostrando el Ticket {{ticket._id}} <a href="/" class="btn btn-primary">Volver</a> </h4>
+<h4>Ticket {{ticket._id}} <a href="/" class="btn btn-primary">Volver</a> </h4>
 <hr>
 <div class="container">
     <table class="table table-bordered table-striped">
@@ -26,7 +26,6 @@
     {{#if ticket.products}}
     <table class="table table-bordered table-striped">
         <tr>
-            <th>Código</th>
             <th>Título</th>
             <th>Descripción</th>
             <th>Categoría</th>
@@ -35,7 +34,6 @@
         </tr>
         {{#each ticket.products}}
         <tr>
-            <td>{{this.product.code}}</td>
             <td>{{this.product.title}}</td>
             <td>{{this.product.description}}</td>
             <td>{{this.product.category}}</td>

@@ -12,9 +12,9 @@ const initializePassport = () => {
     //githubStrategy
     passport.use('github', new GitHubStrategy(
         {
-            clientID: 'Iv1.7ac9d2e29cad2483',
-            clientSecret: 'f264b006f64496f0192dadbb5d6496fe77df5b49',
-            callbackUrl: 'http://localhost:8080/api/users/githubcallback'
+            clientID: 'Iv1.932b310522be1951',
+            clientSecret: '95ad8e0bc9866293d0b8d288f50127a17ae5ccce',
+            callbackUrl: 'http://localhost:8080/api/sessions/github-callback'
         },
         async (accessToken, refreshToken, profile, done) => {
 
@@ -88,7 +88,7 @@ const initializePassport = () => {
             try {
                 let user = false;
                 if (email == 'manuelcaudana10@gmail.com' && password == 'allcomputers2024') {
-                    user = { _id: '6584e399052c1543ea4c9a6c', first_name: 'Admin', last_name: 'Coder', email: 'manuelcaudana10@gmail.com', age: 99, role: "Admin", cartId: 'DummyCart' }
+                    user = { _id: '6584e399052c1543ea4c9a6c', first_name: 'Manu', last_name: 'Caudana', email: 'manuelcaudana10@gmail.com', age: 25, role: "Admin", cartId: 'DummyCart' }
                 } else {
                    user = await userManager.getUserByEmail(email);
                     if (!user) {

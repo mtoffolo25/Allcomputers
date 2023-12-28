@@ -33,7 +33,6 @@ const githubAuthenticateMiddleWare = passport.authenticate('github', {scope: ['u
 
 
 const getDummyFunction = async (req, res) => {
-    //no hace nada
 }
 
 const githubCallbackMiddleWare = passport.authenticate('github', {failureRedirect: '/api/sessions/fail-gh'});
