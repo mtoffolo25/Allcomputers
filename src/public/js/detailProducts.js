@@ -20,12 +20,10 @@ const addProductoToCart = async (productId, cartId) => {
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
-                text: 'Algo salió mal: ' + resultado.message,
+                text: "Algo salio mal!",
               });
-             
          }
      } catch (error) {
          console.log('Error: ' + error);
      }
 }
-

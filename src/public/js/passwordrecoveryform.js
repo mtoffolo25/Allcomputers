@@ -13,10 +13,20 @@ form.addEventListener('submit', e => {
         ).then (result => {
             if (result.status === 200) {
                 console.log(result);
-                alert("Se ha enviado un link de recupero de Contraseña\nRecuerda que tienes una hora para cambiarla");
+                Swal.fire({
+                    position: "center",
+                    icon: "success",
+                    title: "Revisa tu correo electrónico para que puedas cambiar tu contraseña.",
+                    showConfirmButton: false,
+                    timer: 2000
+                  });
                 window.location.replace('/products');
             } else {
-                alert("No encontramos un usuario con el correo electrónico especificado");
+                Swal.fire({
+                    icon: "error",
+                    title: "Oops...",
+                    text: "El e-mail no esta registrado en la base de datos.",
+                  });
             }
         });
         

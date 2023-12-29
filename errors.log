@@ -136,3 +136,7 @@
 [31merror[39m: 28/12/2023, 15:58:12: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
 [31merror[39m: 28/12/2023, 15:58:29: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
 [31merror[39m: 28/12/2023, 16:04:51: Error al obtener el carrito: CastError: Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "carts"
+[31merror[39m: 29/12/2023, 11:30:48: Error al crear el link de recuperación
+[31merror[39m: 29/12/2023, 11:31:53: Error al crear el link de recuperación
+[31merror[39m: 29/12/2023, 11:32:05: Error al crear el link de recuperación
+[31merror[39m: 29/12/2023, 11:32:28: Error al crear el link de recuperación
